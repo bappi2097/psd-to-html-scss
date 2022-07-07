@@ -48,6 +48,61 @@ header .address .address-link {
   gap: 10px;
   padding-left: 100px;
 }
+header .slider-container {
+  background-image: url(./assets/img/1.jpg);
+  background-size: cover;
+  height: 500px;
+}
+header .slider-container nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 10%;
+}
+header .slider-container nav .logo {
+  font-size: 32px;
+  color: #c30505;
+}
+header .slider-container nav .nav-menu {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+header .slider-container nav .nav-menu .nav-item a {
+  height: 38px;
+  color: #fff;
+  font-size: 16px;
+  display: flex;
+  align-items: flex-end;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header .slider-container nav .nav-menu .nav-item a:hover {
+  text-decoration: underline;
+}
+header .slider-container nav .nav-menu .nav-item a .star {
+  margin: auto;
+  display: none;
+  font-size: 8px;
+  color: #c30505;
+}
+header .slider-container nav .nav-menu .nav-item a.active {
+  display: flex;
+  flex-direction: column;
+}
+header .slider-container nav .nav-menu .nav-item a.active .star {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+header .slider-container .slider-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+header .slider-container .slider-content .slider-content-info h1 {
+  font-size: 30px;
+}
 
 .info {
   z-index: 1;
