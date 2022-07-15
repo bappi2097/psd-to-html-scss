@@ -107,7 +107,7 @@ header nav .nav-menu .nav-item a.active .star {
   justify-content: center;
 }
 header .slider-container {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("/assets/img/1.jpg") no-repeat;
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url("../assets/img/1.jpg") no-repeat;
   background-size: cover;
   background-position-y: 0;
   height: 600px;
@@ -216,7 +216,7 @@ header .slider-container .slider-content .slider-content-info p span {
   max-width: 50%;
 }
 .services .service-card.red {
-  background: url("/assets/img/3.jpg") no-repeat;
+  background: url("../assets/img/3.jpg") no-repeat;
   position: relative;
 }
 .services .service-card.red::after {
@@ -230,7 +230,7 @@ header .slider-container .slider-content .slider-content-info p span {
 }
 .services .service-card.black {
   position: relative;
-  background: url("/assets/img/4.jpg") no-repeat;
+  background: url("../assets/img/4.jpg") no-repeat;
 }
 .services .service-card.black::after {
   content: "";
@@ -242,7 +242,7 @@ header .slider-container .slider-content .slider-content-info p span {
   background-color: var(--black);
 }
 .services .service-card.gray {
-  background: url("/assets/img/3.jpg") no-repeat;
+  background: url("../assets/img/3.jpg") no-repeat;
   position: relative;
 }
 .services .service-card.gray::after {

@@ -111,7 +111,7 @@ header {
         rgba($color: #000, $alpha: 0.4),
         rgba($color: #000, $alpha: 0.7)
       ),
-      url("/assets/img/1.jpg") no-repeat;
+      url("../assets/img/1.jpg") no-repeat;
     background-size: cover;
     background-position-y: 0;
     height: 600px;
@@ -217,7 +217,7 @@ header {
       max-width: 50%;
     }
     &.red {
-      background: url("/assets/img/3.jpg") no-repeat;
+      background: url("../assets/img/3.jpg") no-repeat;
       position: relative;
       &::after {
         content: "";
@@ -231,7 +231,7 @@ header {
     }
     &.black {
       position: relative;
-      background: url("/assets/img/4.jpg") no-repeat;
+      background: url("../assets/img/4.jpg") no-repeat;
       &::after {
         content: "";
         display: block;
@@ -243,7 +243,7 @@ header {
       }
     }
     &.gray {
-      background: url("/assets/img/3.jpg") no-repeat;
+      background: url("../assets/img/3.jpg") no-repeat;
       position: relative;
       &::after {
         content: "";
