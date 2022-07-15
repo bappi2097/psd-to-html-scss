@@ -255,6 +255,48 @@ header .slider-container .slider-content .slider-content-info p span {
   background-color: var(--gray);
 }
 
+.certification {
+  margin: 5% auto;
+  display: flex;
+  justify-content: center;
+}
+.certification .certification-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.certification .certification-card img {
+  width: 50%;
+  min-width: 340px;
+  height: 300px;
+}
+.certification .certification-card h1 {
+  font-size: 2rem;
+}
+.certification .certification-card p {
+  width: 50%;
+  min-width: 300px;
+  text-align: center;
+  color: var(--gray);
+}
+
+.newsletter {
+  background-color: var(--primary);
+  color: var(--white);
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 1rem;
+}
+.newsletter h1 {
+  font-size: 2rem;
+}
+.newsletter p {
+  font-size: 0.875rem;
+}
+
 .flex {
   display: flex;
 }
@@ -290,6 +332,11 @@ header .slider-container .slider-content .slider-content-info p span {
   color: var(--primary);
   background-color: var(--white);
   border: 2px solid var(--primary);
+}
+.btn.btn-primary.btn-outlined.reverse {
+  color: var(--white);
+  background-color: var(--primary);
+  border: 2px solid var(--white);
 }
 .btn.btn-primary:hover {
   box-shadow: 0px 0px 3px 0px var(--primary);
